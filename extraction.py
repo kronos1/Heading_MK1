@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 
 
-def headings_content():
+def scrape_headings():
     """
     Return all headings from a given URL
     :return:
@@ -37,4 +37,4 @@ def headings_content():
 
 
 
-headings_content()
+scrape_headings()
